@@ -1,0 +1,91 @@
+nav {
+      display: flex;
+      justify-content: space-between;
+      height: 200px;
+    } 
+ 
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: radial-gradient(circle at top, #0e1a2b, #000000);
+      color: #ffffff;
+    }
+
+  header {
+      padding: 2rem;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.4);
+      border-bottom: 2px solid #f7d10a;
+    }
+
+  img {
+      width:450px;
+      height:300px;
+    }
+
+  ul li {
+      float: left;
+    }
+
+  ul li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+  ul li a:hover {
+      background-color: #111111;
+    }
+
+  .logo {
+      font-size: 3rem;
+      font-weight: bold;
+      letter-spacing: 3px;
+      color: #f7d10a;
+      text-shadow: 0 0 10px #f7d10a;
+    }
+
+  .container {
+      display: grid;
+      grid-template-columns: auto auto;
+      padding: 30px;
+      column-gap: 30px;
+    }
+
+  .hero-card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid #f7d10a;
+      padding: 1.5rem;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+      box-shadow: 0 0 12px rgba(247, 209, 10, 0.3);
+    }
+
+  .hero-card h2 {
+      text-align: center;
+      font-size: 50px;
+      color: #f7d10a;
+      margin-top: 0;
+    }
+
+  .hero-card p {
+      font-size: 25px;
+    }
+
+  #groupImage {
+      margin-top: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: auto;
+      height: auto;
+
+    }
+
+  footer {
+      text-align: center;
+      padding: 2rem;
+      color: #777;
+    }
